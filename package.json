@@ -1,0 +1,14 @@
+{
+  "name": "hexo-red0orange-admonition",
+  "version": "0.0.4",
+  "main": "index",
+  "dependencies": {
+    "markdown-it": "^9.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "red0orange",
+  "license": "MIT",
+  "description": ""
+}
