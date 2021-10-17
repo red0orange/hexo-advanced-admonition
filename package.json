@@ -1,6 +1,6 @@
 {
   "name": "hexo-red0orange-admonition",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "main": "index",
   "dependencies": {
     "@upupming/hexo-renderer-markdown-it-plus": "^2.0.2",
