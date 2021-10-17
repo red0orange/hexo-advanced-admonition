@@ -1,9 +1,10 @@
 {
   "name": "hexo-red0orange-admonition",
-  "version": "0.0.4",
+  "version": "0.0.9",
   "main": "index",
   "dependencies": {
-    "markdown-it": "^9.1.0"
+    "@upupming/hexo-renderer-markdown-it-plus": "^2.0.2",
+    "@neilsustc/markdown-it-katex": "^0.4.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
