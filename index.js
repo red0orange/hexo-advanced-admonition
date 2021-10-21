@@ -21,6 +21,9 @@ hexo.extend.filter.register('before_post_render', function (data) {
 
   if (strRegExp.test(data.content)) {
     strData = data.content.replace(strRegExp, function (raw, start, startQuote, type, title, content, endQuote, end) {
+      if (title.startsWith("title: ")) {
+          title = title.slice("title: ".length);
+      }
       let result = '\n\n<style>' + style_content + '</style>\n\n' +  
               '<div class="admonition ' + type.toLowerCase() + '"><p class="admonition-title">' + title + '</p>' + md.render(content) + '</div>\n\n';
       return result;
